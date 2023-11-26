@@ -35,7 +35,7 @@
     {"id":{"name":"HealthBar","path":"sprites/HealthBar/HealthBar.yy",},},
     {"id":{"name":"OGameOver","path":"objects/OGameOver/OGameOver.yy",},},
     {"id":{"name":"Oinput","path":"objects/Oinput/Oinput.yy",},},
-    {"id":{"name":"Spikes","path":"objects/Spikes/Spikes.yy",},},
+    {"id":{"name":"OSpikes","path":"objects/OSpikes/OSpikes.yy",},},
     {"id":{"name":"ShotgunBullet","path":"objects/ShotgunBullet/ShotgunBullet.yy",},},
     {"id":{"name":"OSolidWall","path":"objects/OSolidWall/OSolidWall.yy",},},
     {"id":{"name":"EnemyHealth","path":"sprites/EnemyHealth/EnemyHealth.yy",},},

@@ -15,7 +15,7 @@
     {"name":"HealthBar","order":5,"path":"sprites/HealthBar/HealthBar.yy",},
     {"name":"OGameOver","order":3,"path":"objects/OGameOver/OGameOver.yy",},
     {"name":"Oinput","order":4,"path":"objects/Oinput/Oinput.yy",},
-    {"name":"Spikes","order":5,"path":"objects/Spikes/Spikes.yy",},
+    {"name":"OSpikes","order":5,"path":"objects/OSpikes/OSpikes.yy",},
     {"name":"ShotgunBullet","order":2,"path":"objects/ShotgunBullet/ShotgunBullet.yy",},
     {"name":"EnemyHealth","order":3,"path":"sprites/EnemyHealth/EnemyHealth.yy",},
     {"name":"OHud","order":5,"path":"objects/OHud/OHud.yy",},
