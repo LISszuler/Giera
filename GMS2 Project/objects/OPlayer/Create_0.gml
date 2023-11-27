@@ -2,7 +2,7 @@ moveDir = 0;
 moveSpd = 2;
 xspd = 0;
 yspd = 0;
-get_dmg_create(20, true);
+get_dmg_create(10, true);
 
 centerYOffset = -3;
 centerY = y +centerYOffset;

@@ -1,5 +1,31 @@
+var _getDmg = true;
+var _wallcollisions = true;
+
 switch(state)
 {
+	case -1:
+	
+	if image_alpha < 1
+	{
+		spd = 0;
+		image_alpha += fadeSpd;
+	}
+	
+	_wallcollisions = false
+	_getDmg = false
+	if image_alpha >= 1
+	{
+		spd = spawnSpd;
+		dir = 270;
+	}
+	
+	if !place_meeting(x, y, Owall)
+	{
+		state = 0;
+	}
+	
+	break;
+	
 	case 0:
 		
 		if instance_exists(OPlayer)
@@ -75,21 +101,35 @@ if dir > 90 && dir < 270
 	face = -1;
 }
 
-
-	if place_meeting(x + xspd, y, Owall) or place_meeting(x + xspd, y, OEnemyParent)
+if _wallcollisions = true
 {
-	xspd = 0;
-}
+	if place_meeting(x + xspd, y, Owall)
+	{
+		xspd = 0;
+	}
 	
-if place_meeting(x, y + yspd, Owall) or place_meeting(x, y + yspd, OEnemyParent)
-{
-	yspd = 0;
+	if place_meeting(x, y + yspd, Owall)
+	{
+		yspd = 0;
+	}
 }
+
+	if place_meeting(x + xspd, y, OEnemyParent)
+	{
+		xspd = 0;
+	}
+	
+	if place_meeting(x, y + yspd, OEnemyParent)
+	{
+		yspd = 0;
+	}
 
 x += xspd;
 y += yspd;
 
 depth = -y;
 
-event_inherited();
-
+if _getDmg = true
+{
+	event_inherited();
+}

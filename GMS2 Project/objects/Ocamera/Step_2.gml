@@ -8,9 +8,6 @@ if instance_exists(OPlayer)
 }
 
 x = clamp(x, 0, room_width - _camw)
-y = clamp(y, 0, room_height - -_camh)
+y = clamp(y, 0, room_height - _camh)
 
 camera_set_view_pos( view_camera[0], x, y);
-
-
-

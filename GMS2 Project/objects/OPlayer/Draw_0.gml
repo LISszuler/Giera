@@ -1,6 +1,6 @@
 if aimDir >= 0 && aimDir < 180
 {
-	draw_weapon()
+	draw_weapon();
 }
 
 draw_self();

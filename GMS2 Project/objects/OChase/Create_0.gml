@@ -14,4 +14,6 @@ recoverTime = 45;
 bulletInst = noone;
 bulletxOffset = -4;
 bulletyOffset = -25;
+fadeSpd = 1/15;
+spawnSpd = .25;
 
